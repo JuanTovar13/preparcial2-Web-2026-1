@@ -1,0 +1,44 @@
+.card {
+    background-color: #3a0903;
+    border: 2px solid #f7f447;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 12px 0;
+    transition: box-shadow 0.3s ease;
+    justify-self: center;
+    min-width: 400px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card h2, h4{
+    margin-top: 0;
+    color: #f7f447;
+}
+
+.card p, small {
+    color: #45a07a;
+}
+
+.card select {
+    margin-top: 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #f7f447;
+    background-color: #3a0903;
+    color: #f7f447;
+}
+
+.card select option:hover {
+    background-color: #3a0903;
+    color: #f7f447;
+}
+
+.card select option{
+    background-color: #3a0903;
+    color: #45a07a;
+}
+
